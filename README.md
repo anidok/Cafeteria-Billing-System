@@ -18,10 +18,14 @@ source table-setup.sql;
 
 **Note**
 
-***`cafe` is the schema name used in the codebase. So, if you want to give your own schema name, then you need to provide that name is `cafe.properties` also.***
+*`cafe` is the schema name used in the codebase. So, if you want to give your own schema name, then you need to provide that name is `cafe.properties` also.*
 
 `Cafeteria Billing System` has a few dependencies:
 * jasypt
 * jdbc-connector
 
 The above libraries have been provided in the `lib` directory.
+
+* Import the project in eclipse or any other IDE.
+* Add `jasypt` and `mysql-connector` jar files provided in `lib` directory to build path of the project.
+* Run src/cafeteria/ui/BillingApp.java.
