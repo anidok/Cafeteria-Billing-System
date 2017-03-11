@@ -8,3 +8,16 @@
 * jdbc-connector
 
 The above libraries have been provided in the `lib` directory.
+
+### Steps
+* Install `MYSQL Server` and `MYSQL Workbench` (not necessary) in your system.
+* You can create your database using following commands:
+
+````
+mysql -u user -p -h hostname;
+create database cafe;
+use cafe;
+source table-setup.sql;
+````
+`table-setup.sql` is present in `sql` directory. It is preferred to provide the full path of the sql file in import command (i.e, `source path\table-setup.sql`).
+
